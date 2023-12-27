@@ -1,0 +1,120 @@
+.Home {
+  background: url(../assets/img/hero-bg.png);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.logoHome img {
+  width: 140px;
+}
+
+.Home .text h3 {
+  color: #ffff;
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+.Home .text p {
+  color: #ffffff5d;
+
+}
+
+.Home .LinkHome {
+  font-size: 17px;
+  background-color: #7cc576;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+
+.Home .LinkHome:hover {
+  color: #fff;
+  background-color: #6fc967;
+}
+
+/* Rsponsive */
+@media(max-width:820px){
+  .logoHome img {
+    width: 130px;
+  }
+  .Home .text h3 {
+    color: #ffff;
+    font-size: 30px;
+    
+  }
+  
+
+  
+  .Home .LinkHome {
+    font-size: 17px;
+    background-color: #7cc576;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 4px;
+  }
+  
+  
+}
+/* ////////// */
+@media(max-width:550px){
+  .logoHome img {
+    width: 120px;
+  }
+  .Home .text h3 {
+    color: #ffff;
+    font-size: 25px;
+    
+  }
+  
+
+  
+  .Home .LinkHome {
+    font-size: 17px;
+    background-color: #7cc576;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 4px;
+  }
+  
+  
+}
+/* ////////////////// */
+@media(max-width:350px){
+  .logoHome img {
+    width: 110px;
+  }
+  .Home .text h3 {
+    color: #ffff;
+    font-size: 22px;
+    
+  }
+  
+  .Home .text p {
+    
+    font-size: 14px;
+    
+  }
+  
+  
+  .Home .LinkHome {
+    font-size: 17px;
+    background-color: #7cc576;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+  
+  
+}

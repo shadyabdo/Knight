@@ -1,0 +1,13 @@
+#responsive-navbar-nav .nav-Link {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #84cb7d;
+}
+
+.Logo {
+  width: 50px;
+}

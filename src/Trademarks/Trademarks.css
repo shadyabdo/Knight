@@ -1,0 +1,52 @@
+.Trademarks_Section {
+  background-color: rgb(245, 245, 245);
+  padding: 30px 0px;
+
+}
+
+.Trademarks_Section img {
+  width: 52%;
+  margin-bottom: 30px;
+  filter: grayscale();
+  transition: .4s;
+}
+
+.Trademarks_Section img:hover {
+  transform: scale(1.1);
+  filter: none;
+}
+
+/* Rsponsive */
+
+/* /////////////// */
+@media(max-width:820px) {
+
+
+  .Trademarks_Section img {
+    width: 50%;
+    
+  }
+
+}
+
+/* ////////// */
+@media(max-width:650px) {
+
+  .Trademarks_Section img {
+    width: 40%;
+    
+  }
+
+}
+
+/* ////////////////// */
+@media(max-width:510px) {
+
+
+  .Trademarks_Section img {
+    width: 30%;
+    
+  }
+}
+
+/* ////////////////// */

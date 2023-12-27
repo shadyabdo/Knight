@@ -1,0 +1,173 @@
+Footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.813), rgba(0, 0, 0, 0.877)), url(../assets/img/footer-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 40px 0px;
+  color: #fff;
+}
+
+Footer img {
+  display: inline-block;
+  width: 100px;
+}
+
+Footer .icon {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+Footer .icon ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+
+
+}
+
+Footer .icon ul li {
+  margin-right: 10px;
+}
+
+Footer .icon ul li i {
+  color: rgb(255, 255, 255);
+  padding: 7px 8px;
+  border-radius: 50%;
+  background-color: rgb(106, 173, 98);
+  font-size: 20px;
+  transition: .4s;
+}
+
+Footer .icon ul li i:hover {
+  background-color: rgb(118, 196, 111)
+}
+
+Footer .End_Footer {
+  border-top: 1px solid #ffffff1f;
+  padding: 20px 0px 0px 0px;
+}
+
+Footer .End_Footer span {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Rsponsive */
+@media(max-width:880px) {
+
+
+  Footer img {
+  
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+
+  Footer .icon {
+    margin: 20px auto;
+
+  }
+
+  Footer .icon ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+
+
+  }
+
+  Footer .icon ul li {
+    margin-right: 10px;
+  }
+
+  Footer .icon ul li i {
+    color: rgb(255, 255, 255);
+    padding: 7px 8px;
+    border-radius: 50%;
+    background-color: rgb(106, 173, 98);
+    font-size: 20px;
+    transition: .4s;
+  }
+
+
+}
+
+/* ////////// */
+@media(max-width:650px) {
+
+  Footer img {
+  
+    width: 90px;
+    margin-bottom: 20px;
+  }
+
+}
+
+/* ////////////////// */
+@media(max-width:510px) {
+
+  .header-About h4 {
+    font-size: 20px;
+  }
+
+  .header-About p {
+    font-size: 15px;
+  }
+
+  .About-Content i {
+    font-size: 18px;
+  }
+
+  .content-About .check,
+  .FooterAbout {
+    font-size: 16px;
+  }
+}
+
+/* ////////////////// */
+@media(max-width:450px) {
+  .About-Content i {
+    margin-right: 6px;
+  }
+
+  .content-About .check,
+  .FooterAbout {
+    font-size: 14.1px;
+
+  }
+
+}
+
+/* ////////////////// */
+@media(max-width:440px) {
+
+  .content-About .check,
+  .FooterAbout {
+
+    font-size: 13px;
+
+  }
+
+  .About-Content i {
+    font-size: 16px;
+  }
+}
+
+@media(max-width:370px) {
+
+  .content-About .check,
+  .FooterAbout {
+
+    font-size: 12px;
+
+  }
+
+  .About-Content i {
+    margin-right: 4px;
+  }
+}
